@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f13c48bbc94533a3b8f3bf159f2d4cc1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f13c48bbc94533a3b8f3bf159f2d4cc1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f13c48bbc94533a3b8f3bf159f2d4cc1 = L.map(
+                "map_f13c48bbc94533a3b8f3bf159f2d4cc1",
+                {
+                    center: [28.636537200000003, 77.17524133333333],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_05a665b8a36a679031fa95ccbe8fc8b9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_05a665b8a36a679031fa95ccbe8fc8b9.addTo(map_f13c48bbc94533a3b8f3bf159f2d4cc1);
+        
+    
+            var marker_f8f15e31bd8773e590919c8c8b41d4d3 = L.marker(
+                [28.5656918, 77.174646],
+                {
+}
+            ).addTo(map_f13c48bbc94533a3b8f3bf159f2d4cc1);
+        
+    
+        var popup_b0da5e3347e1e9f0b36bcbe825c1baa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b38d310802257fb4d9416168f3a8a86 = $(`<div id="html_6b38d310802257fb4d9416168f3a8a86" style="width: 100.0%; height: 100.0%;">RK Puram</div>`)[0];
+                popup_b0da5e3347e1e9f0b36bcbe825c1baa2.setContent(html_6b38d310802257fb4d9416168f3a8a86);
+            
+        
+
+        marker_f8f15e31bd8773e590919c8c8b41d4d3.bindPopup(popup_b0da5e3347e1e9f0b36bcbe825c1baa2)
+        ;
+
+        
+    
+    
+            marker_f8f15e31bd8773e590919c8c8b41d4d3.bindTooltip(
+                `<div>
+                     RK Puram
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_65e1b8f50eaecb63acf2638a186a942a = L.marker(
+                [28.6539198, 77.191078],
+                {
+}
+            ).addTo(map_f13c48bbc94533a3b8f3bf159f2d4cc1);
+        
+    
+        var popup_b90a2544d8d346f143630c1aeac34a32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be43af7b8ceaa3712bd41e429dec8028 = $(`<div id="html_be43af7b8ceaa3712bd41e429dec8028" style="width: 100.0%; height: 100.0%;">Karol Bagh</div>`)[0];
+                popup_b90a2544d8d346f143630c1aeac34a32.setContent(html_be43af7b8ceaa3712bd41e429dec8028);
+            
+        
+
+        marker_65e1b8f50eaecb63acf2638a186a942a.bindPopup(popup_b90a2544d8d346f143630c1aeac34a32)
+        ;
+
+        
+    
+    
+            marker_65e1b8f50eaecb63acf2638a186a942a.bindTooltip(
+                `<div>
+                     Karol Bagh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c25f5f92d345bf850e828c4082044a26 = L.marker(
+                [28.69, 77.16],
+                {
+}
+            ).addTo(map_f13c48bbc94533a3b8f3bf159f2d4cc1);
+        
+    
+        var popup_0dadda3250ae403685fb77b9810a4093 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edd5469f69daa559e7b85a15eeee8d1f = $(`<div id="html_edd5469f69daa559e7b85a15eeee8d1f" style="width: 100.0%; height: 100.0%;">Lawrence Road</div>`)[0];
+                popup_0dadda3250ae403685fb77b9810a4093.setContent(html_edd5469f69daa559e7b85a15eeee8d1f);
+            
+        
+
+        marker_c25f5f92d345bf850e828c4082044a26.bindPopup(popup_0dadda3250ae403685fb77b9810a4093)
+        ;
+
+        
+    
+    
+            marker_c25f5f92d345bf850e828c4082044a26.bindTooltip(
+                `<div>
+                     Lawrence Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_05a665b8a36a679031fa95ccbe8fc8b9.addTo(map_f13c48bbc94533a3b8f3bf159f2d4cc1);
+        
+</script>
+</html>
