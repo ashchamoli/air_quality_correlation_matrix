@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
-# Seasonal names (matching the order of provided data)
+# Seasonal names 
 seasons = ['Summer', 'Monsoon', 'Autumn', 'Winter', 'Spring']
 
 # PM2.5 data
